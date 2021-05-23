@@ -1,6 +1,6 @@
 {
   "name": "brendanmarks.github.io",
-  "homepage": "https://brendanmarks.github.io",
+  "homepage": "http://brendanmarks.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.7.0",
     "react-ga": "^2.7.0",
+    "react-native-web": "^0.16.3",
     "react-router-dom": "^4.3.1",
     "react-router-hash-link": "^1.2.1",
     "react-scripts": "2.1.2",
