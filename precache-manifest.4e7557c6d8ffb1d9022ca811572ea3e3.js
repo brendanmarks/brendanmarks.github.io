@@ -1,19 +1,19 @@
 self.__precacheManifest = [
   {
-    "revision": "6c6d2c37b4dd55a95c49",
-    "url": "/static/css/main.4a79d447.chunk.css"
+    "revision": "c2aca19c69c312441361",
+    "url": "/static/css/main.c939ebdc.chunk.css"
   },
   {
-    "revision": "6c6d2c37b4dd55a95c49",
-    "url": "/static/js/main.6c6d2c37.chunk.js"
+    "revision": "c2aca19c69c312441361",
+    "url": "/static/js/main.c2aca19c.chunk.js"
   },
   {
-    "revision": "6f3c52344805869483d1",
-    "url": "/static/css/1.86e50f1b.chunk.css"
+    "revision": "e531ea0a3d3012bd8e71",
+    "url": "/static/css/1.b06f4f4d.chunk.css"
   },
   {
-    "revision": "6f3c52344805869483d1",
-    "url": "/static/js/1.6f3c5234.chunk.js"
+    "revision": "e531ea0a3d3012bd8e71",
+    "url": "/static/js/1.e531ea0a.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/static/media/matrox.27611b6d.jpg"
   },
   {
-    "revision": "00789d1f88cf393edc452fd5e1d61ebd",
+    "revision": "660dc34645300607ab71a5ec58ba93c4",
     "url": "/index.html"
   }
 ];
