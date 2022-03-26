@@ -12,6 +12,8 @@ import ReactGA from "react-ga";
 import rbc from "../Images/rbc.png";
 import matrox from "../Images/matrox.jpg";
 import ormuco from "../Images/ormuco.png";
+import covidqc from "../Images/covidqc.jpg";
+import vps from "../Images/vps.gif";
 
 
 class App extends Component {
@@ -77,7 +79,6 @@ class App extends Component {
                 <span className="section-subtitle">
                   <nobr>I have worked with: </nobr>
                 </span>
-                <span> Flask </span>
                 <span className="element"> React </span>
                 <span className="element"> Angular </span>
                 <span className="element"> Flask </span>
@@ -85,7 +86,6 @@ class App extends Component {
                 <span className="element"> SpringBoot </span>
                 <span className="element"> Pandas </span>
                 <span className="element"> Scikit-Learn </span>
-                <span className="element"> XCode </span>
                 <span className="element"> Jupyter </span>
                 <span className="element"> Git </span>
               </p>
@@ -124,6 +124,34 @@ class App extends Component {
               subtitle1="Software Developer Intern"
               subtitle2="Montreal, QC"
               description="Worked as a fullstack developer on the IaaS project, notably handling the integration of OpenStack Freezer into the existing platform."
+            />
+          </div>
+        </div>
+        <a id="projects" className="anchor" />
+        <div>
+          <div className="section accomplishments merged-top off-white">
+            <h2 className="sectionTitle">
+              <span>Projects</span>
+            </h2>
+            <Accomplishment
+              link=""
+              image={null}
+              alt="Visual Product Search"
+              title="Visual Product Search"
+              subtitle1="McGill University"
+              subtitle2="Montreal, QC"
+              description="Created a React Native App to allowing to identify convenience store products from user images."
+              gif={vps}
+            />
+            <Accomplishment
+              link="https://reporter.mcgill.ca/mcgill-team-creates-covid-19-dashboard-to-monitor-montreal-boroughs/"
+              image={null}
+              alt="Covid QC"
+              title="CovidQC"
+              subtitle1="McGill University"
+              subtitle2="Montreal, QC"
+              description="Created a React Web App to display Tableau statistics on the coronavirus situation in Quebec."
+              gif={covidqc}
             />
           </div>
         </div>

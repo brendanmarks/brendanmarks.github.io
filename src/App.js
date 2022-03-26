@@ -72,6 +72,17 @@ class App extends Component {
                 WORK
               </Link>
             </Nav.Item>
+            <Nav.Item>
+              <Link
+                className="menu-item"
+                to="/#projects"
+                scroll={el =>
+                  el.scrollIntoView({ behavior: "smooth", block: "start" })
+                }
+              >
+                PROJECTS
+              </Link>
+            </Nav.Item>
             <div className="contact">
               <a target="_blank" rel="noopener noreferrer" href={resume}>
                 <img alt="resume icon" src={resumeIcon} />
