@@ -29,7 +29,7 @@ class App extends Component {
             <img src={me} className="round-headshot" alt="Brendan Marks"></img>
             <p>
               Studying <span>Software Engineering</span> at the{" "}
-              <span>University of McGill</span>
+              <span>McGill University</span>
               <br />
               From: <span>Montreal</span>, Canada
               <br />
